@@ -63,3 +63,7 @@ window.addEventListener(`resize`, function() {
 
 //button
 let buttonScroll = document.querySelector(".encircle");
+let secondpart = document.querySelector("#secondpart");
+buttonScroll.addEventListener("click", function() {
+  secondpart.scrollIntoView({behavior: "smooth"});
+})
